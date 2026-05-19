@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "b": {
+      "tag": "c:plates/steel"
+    },
+    "c": [
+      {
+        "item": "minecraft:piston"
+      }
+    ],
+    "d": {
+      "tag": "railcraft:iron_tank_wall"
+    },
+    "e": {
+      "tag": "c:gears/steel"
+    },
+    "f": {
+      "item": "minecraft:minecart"
+    }
+  },
+  "pattern": [
+    "ab ",
+    "cdb",
+    "fef"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dieselization:diesel_locomotive"
+  }
+}

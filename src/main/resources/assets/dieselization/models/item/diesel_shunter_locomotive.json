@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dieselization:item/diesel_shunter_locomotive_layer0",
+    "layer1": "dieselization:item/diesel_shunter_locomotive_layer1"
+  }
+}

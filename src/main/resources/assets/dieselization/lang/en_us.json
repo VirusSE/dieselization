@@ -1,0 +1,11 @@
+{
+  "item.dieselization.fuel_filter": "Fuel Filter",
+  "item.dieselization.diesel_locomotive": "Diesel Locomotive",
+  "item.dieselization.wrench": "Locomotive Wrench",
+  "item.dieselization.engines.hot_bulb_engine": "Hot-bulb Engine",
+  "item.dieselization.engines.two_stroke_engine": "Two-Stroke Engine",
+  "item.dieselization.engines.four_stroke_engine": "Four-Stroke Engine",
+  "item.dieselization.engines.gas_turbine": "Gas Turbine",
+
+  "creativetab.dieselization.items": "Railcraft - Dieselization Items"
+}

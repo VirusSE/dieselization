@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "tag": "c:gears/iron"
+    }
+  },
+  "pattern": [
+    "a a",
+    " b ",
+    " a "
+  ],
+  "result": {
+    "count": 1,
+    "id": "dieselization:locomotive_wrench"
+  }
+}

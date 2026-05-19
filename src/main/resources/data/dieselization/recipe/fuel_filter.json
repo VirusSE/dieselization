@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "tag": "c:slabs/wooden"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " b ",
+    "aca",
+    " a "
+  ],
+  "result": {
+    "count": 1,
+    "id": "dieselization:fuel_filter"
+  }
+}
