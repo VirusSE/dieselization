@@ -1,5 +1,8 @@
 # Dieselization
 
+Addon for the famous Railcraft (Reborn) Mod for Minecraft Java, which extends the basic Mod by diesel locomotives.
+It brings some sort of maintenance gameplay for the diesel engines too.
+
 Installation information
 =======
 
