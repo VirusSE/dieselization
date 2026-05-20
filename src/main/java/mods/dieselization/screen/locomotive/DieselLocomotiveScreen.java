@@ -15,7 +15,7 @@ import org.jetbrains.annotations.NotNull;
 public class DieselLocomotiveScreen extends LocomotiveScreen<DieselLocomotiveMenu> {
 
     private static final ResourceLocation TEXTURE_LOCATION =
-            DieselizationConstants.rl("textures/gui/diesel_locomotive.png");
+            DieselizationConstants.rl("textures/gui/diesel_locomotive_gui.png");
 
     public DieselLocomotiveScreen(DieselLocomotiveMenu menu, Inventory inv, Component title) {
         super(menu, inv, title, "steam");

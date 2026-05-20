@@ -105,11 +105,6 @@ public class DieselLocomotive extends BaseFuelLocomotive implements WorldlyConta
                 ? InteractionResult.SUCCESS : super.interact(player, hand);
     }
 
-    @Override
-    protected @NotNull AbstractContainerMenu createMenu(int containerId, @NotNull Inventory playerInventory) {
-        return null;
-    }
-
     public TankManager getTankManager() {
         return this.tankManager;
     }

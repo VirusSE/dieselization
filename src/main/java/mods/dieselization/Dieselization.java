@@ -7,7 +7,9 @@ import mods.dieselization.client.renderer.entity.cart.DieselShunterLocomotiveRen
 import mods.dieselization.item.DieselizationCreativeModeTabs;
 import mods.dieselization.item.DieselizationItems;
 import mods.dieselization.screen.DieselizationMenuTypes;
+import mods.dieselization.screen.locomotive.DieselLocomotiveScreen;
 import mods.dieselization.world.entity.DieselizationEntities;
+import mods.railcraft.client.gui.screen.inventory.LocomotiveScreen;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -124,7 +126,7 @@ public class Dieselization {
 
         @SubscribeEvent
         public static void registerScreens(RegisterMenuScreensEvent event) {
-
+            event.register(DieselizationMenuTypes.DIESEL_LOCOMOTIVE.get(), DieselLocomotiveScreen::new);
         }
     }
 }

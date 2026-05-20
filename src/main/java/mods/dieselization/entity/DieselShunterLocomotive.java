@@ -69,7 +69,7 @@ public class DieselShunterLocomotive extends BaseFuelLocomotive implements World
 
     @Override
     public Speed getMaxReverseSpeed() {
-        return Speed.SLOWEST;
+        return Speed.SLOWER;
     }
 
     @Override
@@ -92,11 +92,6 @@ public class DieselShunterLocomotive extends BaseFuelLocomotive implements World
     public InteractionResult interact(Player player, InteractionHand hand) {
         return FluidTools.interactWithFluidHandler(player, hand, this.getTankManager())
                 ? InteractionResult.SUCCESS : super.interact(player, hand);
-    }
-
-    @Override
-    protected @NotNull AbstractContainerMenu createMenu(int containerId, @NotNull Inventory playerInventory) {
-        return null;
     }
 
     public TankManager getTankManager() {

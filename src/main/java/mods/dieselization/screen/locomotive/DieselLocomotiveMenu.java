@@ -4,6 +4,7 @@ package mods.dieselization.screen.locomotive;
 import mods.dieselization.api.core.DieselizationConstants;
 import mods.dieselization.entity.BaseFuelLocomotive;
 import mods.dieselization.entity.DieselLocomotive;
+import mods.dieselization.entity.DieselShunterLocomotive;
 import mods.dieselization.screen.DieselizationMenuTypes;
 import mods.railcraft.gui.widget.FluidGaugeWidget;
 import mods.railcraft.gui.widget.GaugeWidget;
@@ -11,6 +12,8 @@ import mods.railcraft.world.inventory.LocomotiveMenu;
 import mods.railcraft.world.inventory.slot.OutputSlot;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.inventory.MenuType;
+import org.jetbrains.annotations.Nullable;
 
 public class DieselLocomotiveMenu extends LocomotiveMenu<BaseFuelLocomotive> {
 

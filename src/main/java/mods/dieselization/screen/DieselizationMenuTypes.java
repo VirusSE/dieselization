@@ -1,6 +1,7 @@
 package mods.dieselization.screen;
 
 import mods.dieselization.api.core.DieselizationConstants;
+import mods.dieselization.entity.BaseFuelLocomotive;
 import mods.dieselization.entity.DieselLocomotive;
 import mods.dieselization.entity.DieselShunterLocomotive;
 import mods.dieselization.screen.locomotive.DieselLocomotiveMenu;
@@ -23,9 +24,9 @@ public class DieselizationMenuTypes {
     public static final DeferredRegister<MenuType<?>> MENUS = DeferredRegister.create(Registries.MENU, DieselizationConstants.MODID);
 
     public static final DeferredHolder<MenuType<?>, MenuType<DieselLocomotiveMenu>> DIESEL_LOCOMOTIVE =
-            MENUS.register("diesel_locomotive", () -> entityMenu(DieselLocomotive.class, DieselLocomotiveMenu::new));
-    public static final DeferredHolder<MenuType<?>, MenuType<DieselLocomotiveMenu>> DIESEL_SHUNTER_LOCOMOTIVE =
-            MENUS.register("diesel_shunter_locomotive", () -> entityMenu(DieselShunterLocomotive.class, DieselLocomotiveMenu::new));
+            MENUS.register("diesel_locomotive", () -> entityMenu(BaseFuelLocomotive.class, DieselLocomotiveMenu::new));
+    /*public static final DeferredHolder<MenuType<?>, MenuType<DieselLocomotiveMenu>> DIESEL_SHUNTER_LOCOMOTIVE =
+            MENUS.register("diesel_shunter_locomotive", () -> entityMenu(DieselShunterLocomotive.class, DieselLocomotiveMenu::new));*/
 
     public static void register(IEventBus modEventBus) {
         MENUS.register(modEventBus);
